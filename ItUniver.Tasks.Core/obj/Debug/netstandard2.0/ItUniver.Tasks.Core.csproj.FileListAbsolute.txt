@@ -1,0 +1,16 @@
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.deps.json
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csprojAssemblyReference.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfoInputs.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfo.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.deps.json
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfoInputs.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfo.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csprojAssemblyReference.cache
