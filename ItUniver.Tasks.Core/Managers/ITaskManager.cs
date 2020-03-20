@@ -26,7 +26,28 @@ namespace ItUniver.Tasks.Managers
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        TaskBase Get(long id);
+
+        /// <summary>
+        /// 
+        /// </summary>
         /// <returns></returns>
         ICollection<TaskBase> GetAll();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        void Delete(long id);
+
+        /// <summary>
+        /// Обновление
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        TaskBase Update(TaskBase task);
     }
 }

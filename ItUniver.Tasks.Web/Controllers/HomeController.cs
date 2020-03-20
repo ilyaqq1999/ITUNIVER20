@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using System.Diagnostics;
+
 using ItUniver.Tasks.Web.Models;
 using ItUniver.Tasks.Stores;
+using ItUniver.Tasks.Entities;
+
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace ItUniver.Tasks.Web.Controllers
 {
@@ -16,7 +15,6 @@ namespace ItUniver.Tasks.Web.Controllers
 
         private readonly ITaskStore taskStore;
 
-
         public HomeController(ILogger<HomeController> logger, ITaskStore taskStore)
         {
             this.logger = logger;
@@ -25,7 +23,7 @@ namespace ItUniver.Tasks.Web.Controllers
 
         public IActionResult Index()
         {
-            var a = taskStore.Save(new Entities.TaskBase { Subject = "Hello", Description = "Hello World!!!" });
+            //var a = taskStore.Save(new Entities.TaskBase { Subject = "Hello", Description = "Hello World!!!" });
             return View();
         }
 

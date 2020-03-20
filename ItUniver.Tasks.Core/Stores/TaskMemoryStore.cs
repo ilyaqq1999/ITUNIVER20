@@ -28,7 +28,6 @@ namespace ItUniver.Tasks.Stores
                 return saved.Copy();
             }
             task.Id = counter++;
-            task.CreationDate = DateTime.Now;///
             tasks.Add(task.Copy());
             return task;
         }
@@ -42,7 +41,6 @@ namespace ItUniver.Tasks.Stores
             }
             ExistsElem.Subject = entity.Subject;
             ExistsElem.Description = entity.Description;
-            ExistsElem.CreationDate = entity.CreationDate;
             ExistsElem.Status = entity.Status;
             return entity;
         }

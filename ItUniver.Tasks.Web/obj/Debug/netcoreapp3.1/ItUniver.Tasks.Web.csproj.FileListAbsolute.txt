@@ -433,3 +433,8 @@ C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\net
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\ItUniver.Tasks.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Task\Create.cshtml.g.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Task\RowDetails.cshtml.g.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Task\Details.cshtml.g.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Task\Update.cshtml.g.cs

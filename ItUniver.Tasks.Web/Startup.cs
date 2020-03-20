@@ -1,3 +1,5 @@
+using AutoMapper;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +21,9 @@ namespace ItUniver.Tasks.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            //services.AddSingleton<ITaskStore, TaskMemoryStore>();
+
+            services.AddAutoMapper(typeof(Startup).Assembly);
+
             services.AddTaskCoreServices();
         }
 

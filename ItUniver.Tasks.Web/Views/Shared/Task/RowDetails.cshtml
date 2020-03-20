@@ -1,0 +1,42 @@
+﻿@using ItUniver.Tasks.Entities
+@using TaskStatus = ItUniver.Tasks.Enums.TaskStatus
+
+@model TaskBase
+
+@{
+    ViewData["title"] = "Список задач";
+
+    Func<TaskBase, string> CalculateCardTitleStyle = task =>
+    {
+        return $"display: flex;{(string.IsNullOrWhiteSpace(task.Description) ? " margin-bottom: 0 px;" : "")}";
+    };
+
+    Func<TaskBase, string> CalculateBadgeClass = task =>
+{
+    return $"badge badge-{(task.Status == TaskStatus.ToDo ? "primary" : "success")}";
+};
+}
+
+<div class="card">
+    <div class="card-body">
+        <div style="display: flex">
+            <h5 class="card-title" style="@CalculateCardTitleStyle(Model)">
+                <a href="@Url.Action("Details", "Task", new { id = Model.Id})">
+                    @Model.Subject
+                </a>
+                <span class="@CalculateBadgeClass(Model)" style="margin-left: 5px;">
+                    @Model.Status
+                </span>
+            </h5>
+            <div style="width:100%">
+                <span class="material-icons" style="float: right; cursor: pointer; color: red;" onclick="task.delete('@Model.Id', this)">
+                    delete
+                </span>
+                <span class="material-icons" style="float: right; cursor: pointer; color:green;" onclick="window.location.href ='/Task/Update/@Model.Id'">@*Усовершенствовать бы*@
+                    edit
+                </span>
+            </div>
+        </div>
+        @Model.Description
+    </div>
+</div>
