@@ -1,4 +1,8 @@
-﻿using ItUniver.Tasks.Managers;
+﻿using ItUniver.AspNetCore;
+using ItUniver.Tasks.Application;
+using ItUniver.Tasks.Application.Services;
+using ItUniver.Tasks.Application.Services.Imps;
+using ItUniver.Tasks.Managers;
 using ItUniver.Tasks.Stores;
 
 
@@ -12,6 +16,14 @@ namespace ItUniver.Tasks.Web
         {
             services.AddSingleton<ITaskStore, TaskMemoryStore>();
             services.AddTransient<ITaskManager, TaskManager>();
+
+            return services;
+        }
+
+        public static IServiceCollection AddTaskApplicationServices(this IServiceCollection services)
+        {
+            services.CreateControllersForAppServices(typeof(TaskApplicationModule).Assembly);
+            services.AddTransient<ITaskAppService, TaskAppService>();
 
             return services;
         }

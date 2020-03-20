@@ -5,4 +5,8 @@
     <RootNamespace>ItUniver.Tasks</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Zero\ItUniver\ItUniver.csproj" />
+  </ItemGroup>
+
 </Project>

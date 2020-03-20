@@ -438,3 +438,12 @@ C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\net
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Task\Details.cshtml.g.cs
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Task\Update.cshtml.g.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.Tasks.Application.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.Tasks.Application.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.AspNetCore.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Web\bin\Debug\netcoreapp3.1\ItUniver.AspNetCore.pdb

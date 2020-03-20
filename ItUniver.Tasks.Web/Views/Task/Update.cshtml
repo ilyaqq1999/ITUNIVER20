@@ -8,11 +8,11 @@
     <div class="card-body">
         @using (Html.BeginForm("Update", "Task"))
         {
-            <div class="form-group">
+            @*<div class="form-group">
                 @Html.LabelFor(model => model.Subject, "Задача")
                 @Html.TextBoxFor(model => model.Subject, string.Empty, new { @class = "form-control", @placeholder = @Model.Subject })
                 @Html.ValidationMessageFor(model => model.Subject)
-            </div>
+            </div>*@
             <div class="form-group">
                 @Html.LabelFor(model => model.Description, "Описание")
                 @Html.TextAreaFor(model => model.Description, new { @class = "form-control", @placeholder = @Model.Description })
