@@ -1,0 +1,15 @@
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.csprojAssemblyReference.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\staticwebassets\ITUniver.AspNetCore.StaticWebAssets.Manifest.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\staticwebassets\ITUniver.AspNetCore.StaticWebAssets.xml
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.AssemblyInfoInputs.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.AssemblyInfo.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\ITUniver.AspNetCore.deps.json
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\ITUniver.AspNetCore.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\ITUniver.AspNetCore.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\ItUniver.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\bin\Debug\netcoreapp3.1\ItUniver.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.csproj.CopyComplete
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ITUniver.AspNetCore\obj\Debug\netcoreapp3.1\ITUniver.AspNetCore.pdb

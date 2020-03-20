@@ -1,0 +1,13 @@
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Application.deps.json
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Application.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Application.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.pdb
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csprojAssemblyReference.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.AssemblyInfoInputs.cache
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.AssemblyInfo.cs
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csproj.CopyComplete
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.dll
+C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.pdb
