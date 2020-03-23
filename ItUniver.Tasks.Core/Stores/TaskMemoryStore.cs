@@ -39,7 +39,7 @@ namespace ItUniver.Tasks.Stores
             {
                 throw new Exception("Задача не найдена");
             }
-            //ExistsElem.Subject = entity.Subject;
+            ExistsElem.Subject = entity.Subject;
             ExistsElem.Description = entity.Description;
             ExistsElem.Status = entity.Status;
             return entity;
@@ -62,7 +62,7 @@ namespace ItUniver.Tasks.Stores
         /// <inheritdoc/>
         public ICollection<TaskBase> GetAll()
         {
-            return tasks;/*.Select(task => task.Copy()).ToList();*/
+            return tasks.Select(task => task.Copy()).ToList();
         }
     }
 }

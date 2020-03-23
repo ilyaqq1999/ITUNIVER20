@@ -17,3 +17,15 @@ C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\ne
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.pdb
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csprojAssemblyReference.cache
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csproj.CopyComplete
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.deps.json
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.dll
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\bin\Debug\netstandard2.0\ItUniver.pdb
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csprojAssemblyReference.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csproj.CoreCompileInputs.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfoInputs.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.AssemblyInfo.cs
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.csproj.CopyComplete
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.dll
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Core\obj\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb

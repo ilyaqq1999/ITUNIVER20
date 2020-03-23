@@ -14,12 +14,18 @@ namespace ItUniver.Tasks.Web.Controllers
         private readonly ILogger<HomeController> logger;
 
         private readonly ITaskStore taskStore;
+        // private readonly ITaskManager taskManager;
 
         public HomeController(ILogger<HomeController> logger, ITaskStore taskStore)
         {
             this.logger = logger;
             this.taskStore = taskStore;
         }
+        //public HomeController(ILogger<HomeController> logger, ITaskManager taskManager)
+        //{
+        //    this.logger = logger;
+        //    this.taskManager = taskManager;
+        //}
 
         public IActionResult Index()
         {

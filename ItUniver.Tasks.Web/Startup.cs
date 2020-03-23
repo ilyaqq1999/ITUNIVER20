@@ -1,5 +1,7 @@
 using AutoMapper;
+
 using ItUniver.AspNetCore;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -36,9 +38,10 @@ namespace ItUniver.Tasks.Web
                 .AddAutoMapper(typeof(Startup).Assembly);
 
             services
-                .AddTaskCoreServices()//регистраци€ сервисов Core
-                .AddTaskApplicationServices()//регистраци€ сервисов API
-                ;
+                .AddTaskCoreServices() //–егистраци€ сервисов Core
+                .AddTaskApplicationServices() //–егистраци€ сервисов Application
+                .AddTaskNHibernate(Configuration.GetConnectionString("Default"))
+                            ;
 
             services
                 .AddCore();

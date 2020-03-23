@@ -5,3 +5,11 @@ C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ItUniver\obj\Debug\netstand
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.AssemblyInfo.cs
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.dll
 C:\Users\Хозяин\Desktop\folder\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.pdb
+D:\Curse\ITUNIVER20\Zero\ItUniver\bin\Debug\netstandard2.0\ItUniver.deps.json
+D:\Curse\ITUNIVER20\Zero\ItUniver\bin\Debug\netstandard2.0\ItUniver.dll
+D:\Curse\ITUNIVER20\Zero\ItUniver\bin\Debug\netstandard2.0\ItUniver.pdb
+D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.csproj.CoreCompileInputs.cache
+D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.AssemblyInfoInputs.cache
+D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.AssemblyInfo.cs
+D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.dll
+D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.pdb

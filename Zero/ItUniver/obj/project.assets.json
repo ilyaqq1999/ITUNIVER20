@@ -180,25 +180,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Хозяин\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sayle\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
+      "projectUniqueName": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
       "projectName": "ItUniver",
-      "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
-      "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\obj\\",
+      "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
+      "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+      "outputPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -238,7 +237,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

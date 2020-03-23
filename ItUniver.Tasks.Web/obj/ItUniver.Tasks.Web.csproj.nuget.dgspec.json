@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj": {}
+    "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj": {
+    "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj",
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj",
         "projectName": "ItUniver.Tasks.Application",
-        "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\obj\\",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -31,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj": {
-                "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj"
+              "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj"
               }
             }
           }
@@ -63,26 +62,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj": {
+    "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj",
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj",
         "projectName": "ItUniver.Tasks.Core",
-        "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Core\\obj\\",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -94,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
-                "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj"
+              "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj"
               }
             }
           }
@@ -114,6 +112,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -126,26 +128,95 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj": {
+    "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj",
-        "projectName": "ItUniver.Tasks.Web",
-        "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Web\\obj\\",
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate.csproj",
+        "projectName": "ItUniver.Tasks.NHibernate",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Core\\ItUniver.Tasks.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj",
+        "projectName": "ItUniver.Tasks.Web",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Web\\ItUniver.Tasks.Web.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -157,11 +228,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj": {
-                "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj"
+              "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.Application\\ItUniver.Tasks.Application.csproj"
               },
-              "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj": {
-                "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj"
+              "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate\\ItUniver.Tasks.NHibernate.csproj"
+              },
+              "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj"
               }
             }
           }
@@ -210,26 +284,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj": {
+    "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj",
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj",
         "projectName": "ItUniver.AspNetCore",
-        "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\obj\\",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\ItUniver.AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\Zero\\ITUniver.AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -241,8 +314,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
-                "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj"
+              "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
+                "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj"
               }
             }
           }
@@ -273,26 +346,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
+    "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
+        "projectUniqueName": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
         "projectName": "ItUniver",
-        "projectPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Хозяин\\Desktop\\folder\\ITUNIVER20\\Zero\\ItUniver\\obj\\",
+        "projectPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\ItUniver.csproj",
+        "packagesPath": "C:\\Users\\sayle\\.nuget\\packages\\",
+        "outputPath": "D:\\Curse\\ITUNIVER20\\Zero\\ItUniver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sayle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -332,7 +404,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

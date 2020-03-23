@@ -5,7 +5,7 @@
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
-    <RootNamespace>ITUniver</RootNamespace>
+    <RootNamespace>ItUniver</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

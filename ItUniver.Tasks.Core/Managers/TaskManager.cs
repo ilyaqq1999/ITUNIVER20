@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+using ItUniver.Tasks.Repositories;
 using ItUniver.Tasks.Entities;
 using ItUniver.Tasks.Stores;
 
@@ -10,17 +11,21 @@ namespace ItUniver.Tasks.Managers
     public class TaskManager : ITaskManager
     {
         private readonly ITaskStore taskStore;
+        //private readonly ITaskRepository taskRepository;
 
+         //public TaskManager(ITaskStore taskStore/*, ITaskRepository taskRepository*/)
         public TaskManager(ITaskStore taskStore)
         {
             this.taskStore = taskStore;
+            //this.taskRepository = taskRepository;
         }
 
         /// <inheritdoc/>
         public TaskBase Create(TaskBase task)
         {
-            task.CreationDate = DateTime.Now;///
+            task.CreationDate = DateTime.Now;
             task.Status = Enums.TaskStatus.ToDo;
+            //var w = taskRepository.Create(task);
             return taskStore.Save(task);
         }
 
@@ -34,6 +39,7 @@ namespace ItUniver.Tasks.Managers
         /// <inheritdoc/>
         public ICollection<TaskBase> GetAll()
         {
+            //var e = taskRepository.GetAll();
             return taskStore.GetAll();
         }
 

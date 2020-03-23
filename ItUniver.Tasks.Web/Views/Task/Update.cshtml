@@ -1,30 +1,26 @@
-﻿@*сюда написать форму обновления*@
+﻿@using ItUniver.Tasks.Entities
 
-@using ItUniver.Tasks.Entities
+    @model TaskBase
 
-@model TaskBase
-
-<div class="card">
-    <div class="card-body">
-        @using (Html.BeginForm("Update", "Task"))
-        {
-            @*<div class="form-group">
-                @Html.LabelFor(model => model.Subject, "Задача")
-                @Html.TextBoxFor(model => model.Subject, string.Empty, new { @class = "form-control", @placeholder = @Model.Subject })
-                @Html.ValidationMessageFor(model => model.Subject)
-            </div>*@
+    <div class="card">
+        <div class="card-body">
+            @using (Html.BeginForm("Update", "Task"))
+            {
             <div class="form-group">
+                @Html.HiddenFor(model => model.CreationDate)
+                @Html.HiddenFor(model => model.Subject)
+                @Html.HiddenFor(model => model.Id)
                 @Html.LabelFor(model => model.Description, "Описание")
                 @Html.TextAreaFor(model => model.Description, new { @class = "form-control", @placeholder = @Model.Description })
             </div>
-            <button type="submit" class="btn btn-success">Сохранить</button>
-            <a class="btn btn-danger" href="@Url.Action("Index", "Task")">Отмена</a>
-        }
+                <button type="submit" class="btn btn-success">Сохранить</button>
+                <a class="btn btn-danger" href="@Url.Action("Index", "Task")">Отмена</a>
+            }
+        </div>
     </div>
-</div>
 
 @section scripts
-{
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-}
+    {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }

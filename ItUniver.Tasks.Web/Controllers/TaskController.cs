@@ -6,7 +6,7 @@ using ItUniver.Tasks.Web.Models;
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace ITUniversity.Tasks.Web.Controllers
+namespace ItUniver.Tasks.Web.Controllers
 {
     public class TaskController : Controller
     {
@@ -42,8 +42,6 @@ namespace ITUniversity.Tasks.Web.Controllers
             var entity = mapper.Map<TaskBase>(task);
             taskManager.Create(entity);
             return RedirectToAction("Index");
-            //.....
-            //редирект на Index который вернёт новый список с задачами
         }
 
         [HttpPost]
@@ -70,10 +68,6 @@ namespace ITUniversity.Tasks.Web.Controllers
         [HttpPost]
         public IActionResult Update(TaskBase task)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(task);
-            }
             var entity = mapper.Map<TaskBase>(task);
             taskManager.Update(entity);
             return RedirectToAction("Index");
