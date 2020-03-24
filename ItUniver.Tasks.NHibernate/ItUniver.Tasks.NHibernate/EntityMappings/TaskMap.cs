@@ -6,8 +6,14 @@ using NHibernate.Mapping.ByCode.Conformist;
 
 namespace ItUniver.Tasks.NHibernate.EntityMappings
 {
+    /// <summary>
+    /// Описание структуры сущности <see cref="TaskMap"/>
+    /// </summary>
     public class TaskMap : ClassMapping<TaskBase>
     {
+        /// <summary>
+        /// Инициализировать экземпляр <see cref="TaskMap"/>
+        /// </summary>
         public TaskMap()
         {
             Id(x => x.Id, x =>
@@ -19,7 +25,6 @@ namespace ItUniver.Tasks.NHibernate.EntityMappings
 
             Property(b => b.Subject, x =>
             {
-                //x.Length(50);
                 x.Type(NHibernateUtil.String);
             });
 
@@ -33,7 +38,14 @@ namespace ItUniver.Tasks.NHibernate.EntityMappings
                 x.Type(NHibernateUtil.DateTime);
                 x.NotNullable(true);
             });
-            Table("Tasks");
+
+            Property(b => b.Status, x =>
+            {
+                x.Type(NHibernateUtil.Int32);
+                x.NotNullable(true);
+            });
+
+            Table(TaskBase.TableName);
         }
     }
 }

@@ -1,7 +1,7 @@
 using AutoMapper;
 
 using ItUniver.AspNetCore;
-
+using ItUniver.Tasks.Application;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -35,7 +35,7 @@ namespace ItUniver.Tasks.Web
                 .AddRazorRuntimeCompilation();
 
             services
-                .AddAutoMapper(typeof(Startup).Assembly);
+                .AddAutoMapper(typeof(Startup).Assembly,typeof(TaskApplicationModule).Assembly);
 
             services
                 .AddTaskCoreServices() //Регистрация сервисов Core

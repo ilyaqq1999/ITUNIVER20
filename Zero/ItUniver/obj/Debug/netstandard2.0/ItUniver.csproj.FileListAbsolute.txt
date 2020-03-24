@@ -13,4 +13,3 @@ D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.AssemblyInfo
 D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.AssemblyInfo.cs
 D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.dll
 D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.pdb
-D:\Curse\ITUNIVER20\Zero\ItUniver\obj\Debug\netstandard2.0\ItUniver.csprojAssemblyReference.cache

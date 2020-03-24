@@ -1909,6 +1909,7 @@
       },
       "ItUniver.Tasks.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "ItUniver.Tasks.Core": "1.0.0"
         },
         "runtime": {

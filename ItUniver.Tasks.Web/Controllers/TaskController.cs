@@ -27,7 +27,7 @@ namespace ItUniver.Tasks.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Add()
         {
             return View(TaskCreateModel.New);
         }

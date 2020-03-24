@@ -4,9 +4,14 @@
 
 @{
     ViewData["title"] = "Список задач";
+    var createUrl = Url.Action("Add", "Task");
 }
 
 <div class="card">
+    <div class="card-header">
+        Список задач
+        <a style="float: right;" href="@createUrl" type="button" class="btn btn-primary">Добавить задачу</a>
+    </div>
     <div class="card-body">
         <table class="table table-borderless">
             <tbody>
@@ -20,12 +25,11 @@
                 }
             </tbody>
         </table>
-        <a href="@Url.Action("Create", "Task")" type="button" class="btn btn-primary">Добавить задачу</a>
     </div>
 </div>
 
 
 @section scripts
 {
-<script src="~/view-resourses/task/scripts.js"></script>
+    <script src="~/view-resourses/task/scripts.js"></script>
 }
