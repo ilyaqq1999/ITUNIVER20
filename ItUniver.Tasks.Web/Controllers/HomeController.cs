@@ -6,26 +6,27 @@ using ItUniver.Tasks.Entities;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ItUniver.Tasks.Managers;
 
 namespace ItUniver.Tasks.Web.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> logger;
+        private readonly ITaskManager taskManager;
 
-        private readonly ITaskStore taskStore;
-        // private readonly ITaskManager taskManager;
-
-        public HomeController(ILogger<HomeController> logger, ITaskStore taskStore)
-        {
-            this.logger = logger;
-            this.taskStore = taskStore;
-        }
-        //public HomeController(ILogger<HomeController> logger, ITaskManager taskManager)
+        //private readonly ITaskStore taskStore;
+        //public HomeController(ILogger<HomeController> logger, ITaskStore taskStore)
         //{
         //    this.logger = logger;
-        //    this.taskManager = taskManager;
+        //    this.taskStore = taskStore;
         //}
+
+        public HomeController(ILogger<HomeController> logger, ITaskManager taskManager)
+        {
+            this.logger = logger;
+            this.taskManager = taskManager;
+        }
 
         public IActionResult Index()
         {

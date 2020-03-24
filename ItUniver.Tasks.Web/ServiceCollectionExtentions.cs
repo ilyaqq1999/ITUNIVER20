@@ -6,7 +6,6 @@ using ItUniver.Tasks.Managers;
 using ItUniver.Tasks.NHibernate;
 using ItUniver.Tasks.NHibernate.Repositories;
 using ItUniver.Tasks.Repositories;
-using ItUniver.Tasks.Stores;
 
 using Microsoft.Extensions.DependencyInjection;
 
@@ -21,7 +20,7 @@ namespace ItUniver.Tasks.Web
         public static IServiceCollection AddTaskCoreServices(this IServiceCollection services)
         {
             //services.AddSingleton<ITaskStore, TaskMemoryStore>();
-            services.AddScoped<ITaskStore, TaskDbStore>();
+            ////services.AddScoped<ITaskStore, TaskDbStore>();
             services.AddTransient<ITaskManager, TaskManager>();
 
             return services;
@@ -58,9 +57,6 @@ namespace ItUniver.Tasks.Web
             services.AddSingleton(sessionFactory);
             services.AddScoped(factory => sessionFactory.OpenSession());
             services.AddScoped<ITaskRepository, TaskRepository>();
-
-
-            //services.AddTransient<ITaskRepository, TaskRepository>();
 
             return services;
         }
