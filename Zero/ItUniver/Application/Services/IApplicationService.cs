@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ItUniver.Application.Services
+﻿namespace ItUniver.Application.Services
 {
+    /// <summary>
+    /// Базовый интерфейс для всех сервисов приложения
+    /// </summary>
     public interface IApplicationService
     {
 

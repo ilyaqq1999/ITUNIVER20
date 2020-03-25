@@ -6,7 +6,7 @@ namespace ItUniver.Tasks.Application.Services.Dto
     /// <summary>
     /// ДТО создания <see cref="TaskBase"/>
     /// </summary>
-    public class TaskCreateDto
+    public class CreateTaskDto
     {
         /// <summary>
         /// Тема

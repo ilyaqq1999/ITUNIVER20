@@ -3,20 +3,18 @@ using System.Collections.Generic;
 
 using ItUniver.Tasks.Repositories;
 using ItUniver.Tasks.Entities;
-using ItUniver.Tasks.Stores;
 
 namespace ItUniver.Tasks.Managers
 {
-    /// <inheritdoc/>
+    /// <summary>
+    /// Менеджер сущности <see cref="TaskBase"/>
+    /// </summary>
     public class TaskManager : ITaskManager
     {
-       ////private readonly ITaskStore taskStore;
         private readonly ITaskRepository taskRepository;
 
-        //public TaskManager(ITaskStore taskStore/*, ITaskRepository taskRepository*/)
         public TaskManager(ITaskRepository taskRepository)
         {
-            ////this.taskStore = taskStore;
             this.taskRepository = taskRepository;
         }
 
@@ -25,9 +23,8 @@ namespace ItUniver.Tasks.Managers
         {
             task.CreationDate = DateTime.Now;
             task.Status = Enums.TaskStatus.ToDo;
-            ////var w = taskRepository.Create(task);
+
             return taskRepository.Save(task);
-            //return taskStore.Save(task);
         }
 
         /// <inheritdoc/>
@@ -38,28 +35,27 @@ namespace ItUniver.Tasks.Managers
         }
 
         /// <inheritdoc/>
-        public ICollection<TaskBase> GetAll()
-        {
-            //var e = taskRepository.GetAll();
-            return taskRepository.GetAllList();
-        }
-
-        public void Delete(long id)
-        {
-            taskRepository.Delete(id);
-           // taskStore.Delete(id);
-        }
-
         public TaskBase Get(long id)
         {
-            //return taskStore.Get(id);
             return taskRepository.Get(id);
         }
 
+        /// <inheritdoc/>
+        public ICollection<TaskBase> GetAll()
+        {
+            return taskRepository.GetAllList();
+        }
+
+        /// <inheritdoc/>
         public TaskBase Update(TaskBase task)
         {
-            //return taskStore.Update(task);
             return taskRepository.Update(task);
+        }
+
+        /// <inheritdoc/>
+        public void Delete(long id)
+        {
+            taskRepository.Delete(id);
         }
     }
 }

@@ -4,35 +4,33 @@
 @model TaskBase
 
 @{
-    ViewData["title"] = "Список задач";
-
-    Func<TaskBase, string> CalculateCardTitleStyle = task =>
+    Func<TaskBase, string> calculateCardTitleStyle = task =>
     {
-        return $"display: flex;{(string.IsNullOrWhiteSpace(task.Description) ? " margin-bottom: 0 px;" : "")}";
+        return $"display: flex;{(string.IsNullOrWhiteSpace(task.Description) ? " margin-bottom: 0px;" : "")}";
     };
 
-    Func<TaskBase, string> CalculateBadgeClass = task =>
-{
-    return $"badge badge-{(task.Status == TaskStatus.ToDo ? "primary" : "success")}";
-};
+    Func<TaskBase, string> calculateBadgeClass = task =>
+    {
+        return $"badge badge-{(Model.Status == TaskStatus.ToDo ? "primary" : "danger")}";
+    };
 }
 
-<div class="card">
+<div class="card" id="task_@Model.Id">
     <div class="card-body">
         <div style="display: flex">
-            <h5 class="card-title" style="@CalculateCardTitleStyle(Model)">
-                <a href="@Url.Action("Details", "Task", new { id = Model.Id})">
+            <h5 class="card-title" style="@calculateCardTitleStyle(Model)">
+                <a href="@Url.Action("Details", "Task", new { id = Model.Id })">
                     @Model.Subject
                 </a>
-                <span class="@CalculateBadgeClass(Model)" style="margin-left: 5px;">
+                <span class="@calculateBadgeClass(Model)" style="margin-left: 5px;">
                     @Model.Status
                 </span>
             </h5>
-            <div style="width:100%">
+            <div style="width: 100%;">
                 <span class="material-icons" style="float: right; cursor: pointer; color: red;" onclick="task.delete('@Model.Id', this)">
                     delete
                 </span>
-                <span class="material-icons" style="float: right; cursor: pointer; color:green;" onclick="window.location.href ='/Task/Update/@Model.Id'">@*Усовершенствовать бы*@
+                <span class="material-icons" style="float: right; cursor: pointer;" onclick="window.location.href = '@(Url.Action("Edit", "Task", new { id = Model.Id }))';">
                     edit
                 </span>
             </div>

@@ -1,9 +1,12 @@
-using AutoMapper;
+﻿using AutoMapper;
 
 using ItUniver.AspNetCore;
 using ItUniver.Tasks.Application;
+
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +26,14 @@ namespace ItUniver.Tasks.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services
+                .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = new PathString("/Account/Login");
+                })
+                ;
+
+            services
                 .AddControllersWithViews()
                 .AddNewtonsoftJson(options =>
                 {
@@ -32,16 +43,17 @@ namespace ItUniver.Tasks.Web
                     // Configure a custom converter
                     //options.SerializerOptions.Converters.Add(new MyCustomJsonConverter());
                 })
-                .AddRazorRuntimeCompilation();
+                .AddRazorRuntimeCompilation() //Äëÿ èçìåíåíèÿ cshtml â çàïóùåííîì ïðèëîæåíèè
+                ;
 
             services
-                .AddAutoMapper(typeof(Startup).Assembly,typeof(TaskApplicationModule).Assembly);
+                .AddAutoMapper(typeof(Startup).Assembly, typeof(TaskApplicationModule).Assembly);
 
             services
-                .AddTaskCoreServices() //����������� �������� Core
-                .AddTaskApplicationServices() //����������� �������� Application
+                .AddTaskCore()//Регистрация сервесов Core
+                .AddTaskApplication() //Регистрация сервисов API
                 .AddTaskNHibernate(Configuration.GetConnectionString("Default"))
-                            ;
+                ;
 
             services
                 .AddCore();
@@ -65,7 +77,8 @@ namespace ItUniver.Tasks.Web
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication();    // аутентификация
+            app.UseAuthorization();     // авторизация
 
             app.UseEndpoints(endpoints =>
             {

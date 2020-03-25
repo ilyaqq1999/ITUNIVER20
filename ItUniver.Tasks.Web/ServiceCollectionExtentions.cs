@@ -17,19 +17,18 @@ namespace ItUniver.Tasks.Web
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddTaskCoreServices(this IServiceCollection services)
+        public static IServiceCollection AddTaskCore(this IServiceCollection services)
         {
-            //services.AddSingleton<ITaskStore, TaskMemoryStore>();
-            ////services.AddScoped<ITaskStore, TaskDbStore>();
             services.AddTransient<ITaskManager, TaskManager>();
 
             return services;
         }
 
-        public static IServiceCollection AddTaskApplicationServices(this IServiceCollection services)
+        public static IServiceCollection AddTaskApplication(this IServiceCollection services)
         {
             services.CreateControllersForAppServices(typeof(TaskApplicationModule).Assembly);
             services.AddTransient<ITaskAppService, TaskAppService>();
+            services.AddTransient<IUserAppService, UserAppService>();
 
             return services;
         }
@@ -57,6 +56,7 @@ namespace ItUniver.Tasks.Web
             services.AddSingleton(sessionFactory);
             services.AddScoped(factory => sessionFactory.OpenSession());
             services.AddScoped<ITaskRepository, TaskRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

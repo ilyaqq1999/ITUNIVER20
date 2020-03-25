@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 
 using ItUniver.Domain.Entities;
+
 namespace ItUniver.Domain.Repositories.Impls
 {
     /// <summary>

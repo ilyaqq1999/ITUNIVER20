@@ -11,3 +11,18 @@ task.delete = function (id, invoker) {
         }
     });
 }
+
+task.create = function (formId, returnUrl) {
+    debugger;
+    var postData = objectifyForm(formId);
+    $.ajax({
+        url: "/api/services/task/create",
+        dataType: "json",
+        contentType: "application/json",
+        method: "POST",
+        data: JSON.stringify(postData),
+        success: function () {
+            window.location.href = returnUrl;    
+        }
+    });
+}

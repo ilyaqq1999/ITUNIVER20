@@ -1,9 +1,9 @@
-﻿@using ItUniver.Tasks.Entities
+﻿@using ItUniver.Tasks.Application.Services.Dto
 
-@model ICollection<TaskBase>
+@model ICollection<TaskDto>
 
 @{
-    ViewData["title"] = "Список задач";
+    ViewData["Title"] = "Список задач";
     var createUrl = Url.Action("Add", "Task");
 }
 
@@ -14,22 +14,19 @@
     </div>
     <div class="card-body">
         <table class="table table-borderless">
-            <tbody>
-                @foreach (var task in Model)
-                {
-                    <tr>
-                        <td style="padding-left: 0px; padding-right: 0px">
-                            @await Html.PartialAsync("Task/RowDetails", task)
-                        </td>
-                    </tr>
-                }
-            </tbody>
+            @foreach (var task in Model)
+            {
+                <tr>
+                    <td style="padding-left: 0px; padding-right: 0px;">
+                        @await Html.PartialAsync("Task/RowDetails", task)
+                    </td>
+                </tr>
+            }
         </table>
     </div>
 </div>
 
-
 @section scripts
 {
-    <script src="~/view-resourses/task/scripts.js"></script>
+    <script src="~/view-resources/task/scripts.js"></script>
 }

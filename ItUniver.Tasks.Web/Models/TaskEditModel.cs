@@ -1,17 +1,25 @@
-﻿using ItUniver.Tasks.Entities;
-using ItUniver.Tasks.Enums;
+﻿using System;
 
-namespace ItUniver.Tasks.Application.Services.Dto
+namespace ItUniver.Tasks.Web.Models
 {
     /// <summary>
-    /// ДТО обновления <see cref="TaskBase"/>
+    /// Модель редактирования задачи
     /// </summary>
-    public class TaskUpdateDto
+    public class TaskEditModel
     {
         /// <summary>
-        /// Индентификатор
+        /// Идентификатор
         /// </summary>
         public long Id
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Тема
+        /// </summary>
+        public string Subject
         {
             get;
             set;
@@ -27,9 +35,9 @@ namespace ItUniver.Tasks.Application.Services.Dto
         }
 
         /// <summary>
-        /// Статус
+        /// Дата создания
         /// </summary>
-        public TaskStatus Status
+        public DateTime CreationDate
         {
             get;
             set;

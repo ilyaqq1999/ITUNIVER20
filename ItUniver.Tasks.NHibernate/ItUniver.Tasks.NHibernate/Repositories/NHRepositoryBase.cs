@@ -12,7 +12,7 @@ namespace ItUniver.Tasks.NHibernate.Repositories
     /// </summary>
     /// <typeparam name="TEntity">Тип сущности</typeparam>
     /// <typeparam name="TPrimaryKey">Тип первичного ключа</typeparam>
-    public class NhRepositoryBase<TEntity, TPrimaryKey> : RepositoryBase<TEntity, TPrimaryKey>, IDisposable
+    public class NhRepositoryBase<TEntity, TPrimaryKey> : RepositoryBase<TEntity, TPrimaryKey>//, IDisposable
         where TEntity : class, IEntity<TPrimaryKey>
     {
         public virtual ISession Session { get; }
@@ -46,8 +46,6 @@ namespace ItUniver.Tasks.NHibernate.Repositories
         {
             Session.Save(entity);
             Session.Flush(); //Не правильно, только для тестов работы приложения
-            //создавать транзакции и их коммитить,
-            //ДЗ : как избавиться от flush ?
             return entity;
         }
 
@@ -67,9 +65,9 @@ namespace ItUniver.Tasks.NHibernate.Repositories
             Session.Flush(); //Не правильно, только для тестов работы приложения
         }
 
-        public void Dispose()
-        {
-            //transaction.Commit();
-        }
+        //public void Dispose()
+        //{
+        //    //transaction.Commit();
+        //}
     }
 }

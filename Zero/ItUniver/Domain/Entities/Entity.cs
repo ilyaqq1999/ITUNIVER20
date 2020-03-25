@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ItUniver.Domain.Entities
+﻿namespace ItUniver.Domain.Entities
 {
     /// <summary>
     /// Сущность, с первичным ключем с типа <see cref="int"/>

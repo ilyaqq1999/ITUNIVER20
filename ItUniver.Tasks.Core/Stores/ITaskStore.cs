@@ -21,7 +21,7 @@ namespace ItUniver.Tasks.Stores
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        TaskBase Update(TaskBase entity);
+        TaskBase Update(TaskBase task);
 
         /// <summary>
         /// Удаление

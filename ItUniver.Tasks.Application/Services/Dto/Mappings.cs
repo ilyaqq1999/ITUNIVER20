@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+
 using ItUniver.Tasks.Entities;
 
 namespace ItUniver.Tasks.Application.Services.Dto
@@ -8,8 +9,10 @@ namespace ItUniver.Tasks.Application.Services.Dto
         public Mappings()
         {
             CreateMap<TaskBase,TaskDto>();
-            CreateMap<TaskCreateDto, TaskBase>();
-            CreateMap<TaskUpdateDto, TaskBase>();
+            CreateMap<CreateTaskDto, TaskBase>();
+            CreateMap<UpdateTaskDto, TaskBase>();
+            CreateMap<CreateUserDto, User>();
+            CreateMap<User, UserDto>();
         }
     }
 }

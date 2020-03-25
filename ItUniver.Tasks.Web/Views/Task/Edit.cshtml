@@ -1,0 +1,25 @@
+﻿@using ItUniver.Tasks.Web.Models
+
+@model TaskEditModel
+
+<div class="card">
+    <div class="card-header">
+        Редактирование задачи - @Model.Subject
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Edit", "Task"))
+        {
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.Subject)
+            @Html.HiddenFor(model => model.CreationDate)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Description)
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+            </div>
+
+            <button type="submit" class="btn btn-success">Сохранить</button>
+            <a class="btn btn-danger" href="@Url.Action("Index", "Task")">Отмена</a>
+        }
+    </div>
+</div>

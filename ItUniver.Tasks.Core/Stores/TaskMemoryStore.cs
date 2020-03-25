@@ -32,17 +32,20 @@ namespace ItUniver.Tasks.Stores
             return task;
         }
 
-        public TaskBase Update(TaskBase entity)
+        /// <inheritdoc/>
+        public TaskBase Update(TaskBase task)
         {
-            var ExistsElem = InternalGet(entity.Id);
-            if (ExistsElem == null)
+            var saved = InternalGet(task.Id);
+            if (saved == null)
             {
                 throw new Exception("Задача не найдена");
             }
-            ExistsElem.Subject = entity.Subject;
-            ExistsElem.Description = entity.Description;
-            ExistsElem.Status = entity.Status;
-            return entity;
+            saved.Subject = task.Subject;
+            saved.Description = task.Description;
+            //saved.CreationDate = task.CreationDate;
+            saved.Status = task.Status;
+
+            return task;
         }
 
         public void Delete(long id)

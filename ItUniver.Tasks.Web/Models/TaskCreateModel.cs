@@ -8,15 +8,19 @@ namespace ItUniver.Tasks.Web.Models
     /// </summary>
     public class TaskCreateModel
     {
+        /// <summary>
+        /// Новый экземпляр
+        /// </summary>
         public static TaskCreateModel New
         {
             get { return new TaskCreateModel(); }
         }
+
         /// <summary>
         /// Тема
         /// </summary>
-       [Required(ErrorMessage = "Заполните обязательное поле")]
-       [DisplayName("Тема")]
+        [Required(ErrorMessage = "Заполните обязательное поле")]
+        [DisplayName("Тема")]
         public string Subject
         {
             get;

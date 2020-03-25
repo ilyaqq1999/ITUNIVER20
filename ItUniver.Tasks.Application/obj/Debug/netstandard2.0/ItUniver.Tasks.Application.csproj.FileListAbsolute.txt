@@ -19,9 +19,9 @@ D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\bin\Debug\netstandard2.0\ItUniver.pdb
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csprojAssemblyReference.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csproj.CoreCompileInputs.cache
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.AssemblyInfoInputs.cache
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.AssemblyInfo.cs
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csproj.CopyComplete
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.dll
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.pdb
-D:\Curse\ITUNIVER20\ItUniver.Tasks.Application\obj\Debug\netstandard2.0\ItUniver.Tasks.Application.csproj.CoreCompileInputs.cache

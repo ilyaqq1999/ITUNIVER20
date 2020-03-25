@@ -9,6 +9,9 @@ namespace ItUniver.Tasks.Entities
     /// </summary>
     public class TaskBase : Entity<long>
     {
+        /// <summary>
+        /// Имя таблицы
+        /// </summary>
         public const string TableName = "Tasks";
 
         /// <summary>
