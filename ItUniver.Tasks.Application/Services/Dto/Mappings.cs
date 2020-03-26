@@ -14,6 +14,7 @@ namespace ItUniver.Tasks.Application.Services.Dto
             CreateMap<UpdateTaskDto, TaskBase>();
             CreateMap<CreateUserDto, User>();
             CreateMap<User, UserDto>();
+            CreateMap<Role, RoleDto>();
         }
     }
 }

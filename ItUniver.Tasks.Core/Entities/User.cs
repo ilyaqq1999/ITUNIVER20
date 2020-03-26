@@ -47,5 +47,14 @@ namespace ItUniver.Tasks.Entities
             get;
             set;
         }
+
+        /// <summary>
+        /// Роль
+        /// </summary>
+        public virtual Role Role
+        {
+            get;
+            set;
+        }
     }
 }

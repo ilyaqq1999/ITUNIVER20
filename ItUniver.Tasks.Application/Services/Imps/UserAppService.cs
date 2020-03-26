@@ -15,17 +15,30 @@ namespace ItUniver.Tasks.Application.Services.Imps
     {
         private readonly IUserRepository userRepository;
 
+        private readonly IRoleRepository roleRepository;
+
         private readonly IMapper mapper;
 
         /// <summary>
         /// Инициализировать экземпляр <see cref="UserAppService"/>
         /// </summary>
         /// <param name="userRepository">Репозиторий пользователей</param>
+        /// <param name="roleRepository"></param>
         /// <param name="mapper">Маппер</param>
-        public UserAppService(IUserRepository userRepository, IMapper mapper)
+        public UserAppService(
+            IUserRepository userRepository,
+            IRoleRepository roleRepository,
+            IMapper mapper)
         {
             this.userRepository = userRepository;
+            this.roleRepository = roleRepository;
             this.mapper = mapper;
+        }
+
+        public UserDto Get(int id)
+        {
+            var entity = userRepository.Get(id);
+            return mapper.Map<UserDto>(entity);
         }
 
         /// <inheritdoc/>
@@ -34,6 +47,21 @@ namespace ItUniver.Tasks.Application.Services.Imps
             var entity = mapper.Map<User>(dto);
             userRepository.Save(entity);
             return mapper.Map<UserDto>(entity);
+        }
+
+        /// <inheritdoc/>
+        public UserDto Update(UpdateUserDto dto)
+        {
+            var user = userRepository.Get(dto.Id);
+            user.Email = dto.Email;
+            if (dto.RoleId.HasValue)
+            {
+                var role = roleRepository.Get(dto.RoleId.Value);
+                user.Role = role;
+            }
+            userRepository.Update(user);///
+            var entity = mapper.Map<UserDto>(user);
+            return entity;
         }
 
         /// <inheritdoc/>

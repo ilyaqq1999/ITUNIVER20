@@ -871,3 +871,5 @@ D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\staticwebassets\I
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\ItUniver.Tasks.Web.dll
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\ItUniver.Tasks.Web.pdb
 D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\ItUniver.Tasks.Web.genruntimeconfig.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\Curse\ITUNIVER20\ItUniver.Tasks.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs

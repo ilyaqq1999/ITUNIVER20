@@ -26,12 +26,13 @@ namespace ItUniver.Tasks.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.LoginPath = new PathString("/Account/Login");
-                })
-                ;
+                 .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                 .AddCookie(options =>
+                   {
+                       options.LoginPath = new PathString("/Account/Login");
+                       options.AccessDeniedPath = new PathString("/Account/AccessDenied");
+                   })
+            ;
 
             services
                 .AddControllersWithViews()

@@ -16,6 +16,18 @@ namespace ItUniver.Tasks.Application.Services
         UserDto Create(CreateUserDto dto);
 
         /// <summary>
+        /// Обновить пользователя
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        UserDto Update(UpdateUserDto dto);
+        /// <summary>
+        /// Получить пользователя
+        /// </summary>
+        /// <param name="id"> Идентификатор пользователя</param>
+        UserDto Get(int id);
+
+        /// <summary>
         /// Получить пользователя
         /// </summary>
         /// <param name="login">Логин</param>
