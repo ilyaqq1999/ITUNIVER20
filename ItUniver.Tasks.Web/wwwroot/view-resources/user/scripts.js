@@ -4,18 +4,15 @@ user.block = function (id, invoker) {
     $.ajax({
         url: "/api/services/user/block",
         dataType: "json",
-        //contentType: "application/json",
         method: "POST",
-        data: { id: id },//JSON.stringify({ id: id }),
+        data: { id: id },
         success: function () {
-            //debugger;
             invoker.closest('tr').remove();
         }
     });
 }
 
 user.update = function (formId, returnUrl) {
-    //debugger;
     var postData = objectifyForm(formId);
     $.ajax({
         url: "/api/services/user/update",
@@ -23,8 +20,7 @@ user.update = function (formId, returnUrl) {
         contentType: "application/json",
         method: "PUT",
         data: JSON.stringify(postData),
-        success: function (data) {
-            //debugger;
+        success: function () {
             window.location.href = returnUrl;
         }
     });
