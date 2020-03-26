@@ -46,7 +46,7 @@ namespace ItUniver.Tasks.Application.Services.Imps
         /// <inheritdoc/>
         public UserDto Get(string login, string password)
         {
-            var entity = userRepository.FirstOrDefault(e => e.Login == login && e.Password == password);
+            var entity = userRepository.FirstOrDefault(e => e.Login == login && e.Password == password && !e.IsBlocked);///
             return mapper.Map<UserDto>(entity);
         }
 
