@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
+
 using ItUniver.Tasks.Application.Services;
 using ItUniver.Tasks.Application.Services.Dto;
-using ItUniver.Tasks.Entities;
 using ItUniver.Tasks.Web.Models;
 
 using Microsoft.AspNetCore.Authorization;
@@ -89,8 +89,8 @@ namespace ItUniver.Tasks.Web.Controllers
         [HttpPost]
         public IActionResult Edit(TaskEditModel task)
         {
-            //var entity = mapper.Map<TaskBase>(task);
-            //taskAppService.Update(entity);
+            var entity = mapper.Map<UpdateTaskDto>(task);
+            taskAppService.Update(entity);
 
             return RedirectToAction("Index");
         }
