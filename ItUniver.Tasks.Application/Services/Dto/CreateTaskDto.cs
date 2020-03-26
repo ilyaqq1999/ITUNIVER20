@@ -11,11 +11,11 @@ namespace ItUniver.Tasks.Application.Services.Dto
         /// <summary>
         /// Тема
         /// </summary>
-        public string Subject { get; set; }
+        public  string Subject { get; set; }
 
         /// <summary>
         /// Описание
         /// </summary>
-        public string Description { get; set; }
+        public  string Description { get; set; }
     }
 }

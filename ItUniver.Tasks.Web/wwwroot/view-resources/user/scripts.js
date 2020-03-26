@@ -8,7 +8,7 @@ user.block = function (id, invoker) {
         method: "POST",
         data: { id: id },//JSON.stringify({ id: id }),
         success: function () {
-            debugger;
+            //debugger;
             invoker.closest('tr').remove();
         }
     });

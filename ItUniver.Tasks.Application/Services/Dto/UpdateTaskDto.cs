@@ -1,4 +1,5 @@
-﻿using ItUniver.Tasks.Entities;
+﻿using System;
+using ItUniver.Tasks.Entities;
 using ItUniver.Tasks.Enums;
 
 namespace ItUniver.Tasks.Application.Services.Dto

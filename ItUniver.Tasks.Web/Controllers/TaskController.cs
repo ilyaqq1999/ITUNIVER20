@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using ItUniver.Tasks.Application.Services;
+using ItUniver.Tasks.Application.Services.Dto;
+using ItUniver.Tasks.Entities;
 using ItUniver.Tasks.Web.Models;
 
 using Microsoft.AspNetCore.Authorization;

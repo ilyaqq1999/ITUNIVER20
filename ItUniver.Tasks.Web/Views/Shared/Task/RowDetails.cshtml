@@ -1,15 +1,30 @@
 ﻿@using ItUniver.Tasks.Entities
 @using TaskStatus = ItUniver.Tasks.Enums.TaskStatus
+@using ItUniver.Tasks.Application.Services.Dto;
 
-@model TaskBase
+
+@*@model TaskBase*@
+@*@{
+        Func<TaskBase, string> calculateCardTitleStyle = task =>
+        {
+            return $"display: flex;{(string.IsNullOrWhiteSpace(task.Description) ? " margin-bottom: 0px;" : "")}";
+        };
+
+        Func<TaskBase, string> calculateBadgeClass = task =>
+        {
+            return $"badge badge-{(Model.Status == TaskStatus.ToDo ? "primary" : "danger")}";
+        };
+    }*@
+
+@model TaskDto
 
 @{
-    Func<TaskBase, string> calculateCardTitleStyle = task =>
+    Func<TaskDto, string> calculateCardTitleStyle = task =>
     {
         return $"display: flex;{(string.IsNullOrWhiteSpace(task.Description) ? " margin-bottom: 0px;" : "")}";
     };
 
-    Func<TaskBase, string> calculateBadgeClass = task =>
+    Func<TaskDto, string> calculateBadgeClass = task =>
     {
         return $"badge badge-{(Model.Status == TaskStatus.ToDo ? "primary" : "danger")}";
     };
@@ -38,3 +53,10 @@
         @Model.Description
     </div>
 </div>
+
+@section scripts
+{
+    <script src="~/view-resources/task/scripts.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,4 +1,4 @@
-﻿@using ItUniver.Tasks.Application.Services.Dto;
+﻿@using ItUniver.Tasks.Application.Services.Dto
 
 @model ICollection<UserDto>
 
@@ -23,7 +23,7 @@
                                         @user.Login
                                     </h5>
                                     <div style="width: 100%;">
-                                        <span class="material-icons" style="float: right; cursor: pointer; color: red;" onclick="user.block('@user.Id', this)">
+                                        <span class="material-icons" style="float: right; cursor: pointer; color: red;" onclick="user.block(@user.Id, this)">
                                             block
                                         </span>
                                     </div>

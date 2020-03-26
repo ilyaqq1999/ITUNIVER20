@@ -43,7 +43,7 @@ namespace ItUniver.Tasks.Web
                     // Configure a custom converter
                     //options.SerializerOptions.Converters.Add(new MyCustomJsonConverter());
                 })
-                .AddRazorRuntimeCompilation() //Äëÿ èçìåíåíèÿ cshtml â çàïóùåííîì ïðèëîæåíèè
+                .AddRazorRuntimeCompilation()
                 ;
 
             services
