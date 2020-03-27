@@ -36,5 +36,15 @@ namespace ItUniver.Tasks.Web.Models
             get;
             set;
         }
+
+        /// <summary>
+        /// Исполнитель
+        /// </summary>
+        [DisplayName("Исполнитель")]
+        public int? Executor
+        {
+            get;
+            set;
+        }
     }
 }

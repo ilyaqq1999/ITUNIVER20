@@ -9,8 +9,7 @@ namespace ItUniver.Tasks.Application.Services.Dto
         public Mappings()
         {
             CreateMap<TaskBase, TaskDto>();
-            CreateMap<TaskBase, UpdateTaskDto>();
-            CreateMap<CreateTaskDto, TaskBase>();
+            CreateMap<CreateTaskDto, TaskBase>().ForMember(dest => dest.Executor, opt => opt.Ignore());
             CreateMap<UpdateTaskDto, TaskBase>();
             CreateMap<CreateUserDto, User>();
             CreateMap<User, UserDto>();

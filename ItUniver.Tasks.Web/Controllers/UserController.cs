@@ -15,7 +15,9 @@ namespace ItUniver.Tasks.Web.Controllers
     public class UserController : Controller
     {
         private readonly IUserAppService userAppService;
+
         private readonly IMapper mapper;
+
         /// <summary>
         /// Инициализировать экземпляр <see cref="UserController"/>
         /// </summary>
@@ -23,8 +25,8 @@ namespace ItUniver.Tasks.Web.Controllers
         /// <param name="mapper">Маппер</param>
         public UserController(IUserAppService userAppService, IMapper mapper)
         {
-            this.userAppService = userAppService;
             this.mapper = mapper;
+            this.userAppService = userAppService;
         }
 
         /// <summary>
@@ -37,6 +39,11 @@ namespace ItUniver.Tasks.Web.Controllers
             return View(dtos);
         }
 
+        /// <summary>
+        /// Получить страницу редактирования пользователя
+        /// </summary>
+        /// <param name="id">Идентификатор пользователя</param>
+        [HttpGet]
         public IActionResult Edit(int id)
         {
             var userDto = userAppService.Get(id);

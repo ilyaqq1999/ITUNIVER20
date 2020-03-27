@@ -1,5 +1,4 @@
-﻿using System;
-using ItUniver.Tasks.Enums;
+﻿using System.ComponentModel;
 
 namespace ItUniver.Tasks.Web.Models
 {
@@ -11,25 +10,39 @@ namespace ItUniver.Tasks.Web.Models
         /// <summary>
         /// Идентификатор
         /// </summary>
-        public long Id { get; set; }
+        public long Id
+        {
+            get;
+            set;
+        }
+
         /// <summary>
         /// Тема
         /// </summary>
-        public string Subject { get; set; }
+        public string Subject
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Описание
         /// </summary>
-        public string Description { get; set; }
+        [DisplayName("Описание")]
+        public string Description
+        {
+            get;
+            set;
+        }
 
         /// <summary>
-        /// Дата создания
+        /// Исполнитель
         /// </summary>
-        public DateTime CreationDate { get; set; }
-
-        /// <summary>
-        /// Статус
-        /// </summary>
-        public TaskStatus Status { get; set; }
+        [DisplayName("Исполнитель")]
+        public int? Executor
+        {
+            get;
+            set;
+        }
     }
 }

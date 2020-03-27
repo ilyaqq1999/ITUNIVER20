@@ -15,9 +15,8 @@ namespace ItUniver.Tasks.Web
             CreateMap<TaskBase, TaskEditModel>();
             CreateMap<TaskEditModel, TaskBase>();
             CreateMap<RegisterModel, CreateUserDto>();
-            CreateMap<TaskDto,TaskEditModel>();
             CreateMap<UserDto, UserEditModel>();
-            CreateMap<TaskEditModel, UpdateTaskDto>();
+            CreateMap<TaskDto, TaskEditModel>().ForMember(dest => dest.Executor, opt => opt.MapFrom(exp => exp.Executor != null ? exp.Executor.Id : (int?)null));
         }
     }
 }

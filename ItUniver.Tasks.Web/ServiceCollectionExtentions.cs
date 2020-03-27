@@ -20,7 +20,6 @@ namespace ItUniver.Tasks.Web
         public static IServiceCollection AddTaskCore(this IServiceCollection services)
         {
             services.AddTransient<ITaskManager, TaskManager>();
-
             return services;
         }
 

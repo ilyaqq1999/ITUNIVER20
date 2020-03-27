@@ -1,3 +1,6 @@
+D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.csproj.CoreCompileInputs.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.AssemblyInfoInputs.cache
+D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.AssemblyInfo.cs
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.deps.json
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.dll
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.pdb
@@ -6,9 +9,6 @@ D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debu
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debug\netstandard2.0\ItUniver.Tasks.Core.pdb
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\bin\Debug\netstandard2.0\ItUniver.pdb
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.csprojAssemblyReference.cache
-D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.csproj.CoreCompileInputs.cache
-D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.AssemblyInfoInputs.cache
-D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.AssemblyInfo.cs
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.csproj.CopyComplete
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.dll
 D:\Curse\ITUNIVER20\ItUniver.Tasks.NHibernate\ItUniver.Tasks.NHibernate\obj\Debug\netstandard2.0\ItUniver.Tasks.NHibernate.pdb

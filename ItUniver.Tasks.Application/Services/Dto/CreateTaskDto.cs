@@ -17,5 +17,10 @@ namespace ItUniver.Tasks.Application.Services.Dto
         /// Описание
         /// </summary>
         public  string Description { get; set; }
+
+        /// <summary>
+        /// Исполнитель
+        /// </summary>
+        public int? Executor { get; set; }
     }
 }

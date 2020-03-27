@@ -4,10 +4,14 @@ using System.Reflection;
 
 using ItUniver.AspNetCore.Mvc.Conventions;
 using ItUniver.AspNetCore.Mvc.Providers;
+using ItUniver.AspNetCore.Runtime.Session;
+using ItUniver.Runtime.Session;
 
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace ItUniver.AspNetCore
 {
@@ -22,6 +26,10 @@ namespace ItUniver.AspNetCore
             {
                 mvcOptions.Conventions.Add(new AppServiceConvention(services));
             });
+
+            services.TryAddSingleton<IAppSession, ClaimsAppSession>();
+            services.TryAddSingleton<IPrincipalAccessor, AspNetCorePrincipalAccessor>();
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             return services;
         }

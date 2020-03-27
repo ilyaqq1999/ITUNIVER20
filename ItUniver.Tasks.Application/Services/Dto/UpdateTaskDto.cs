@@ -13,24 +13,15 @@ namespace ItUniver.Tasks.Application.Services.Dto
         /// Идентификатор
         /// </summary>
         public long Id { get; set; }
-        /// <summary>
-        /// Тема
-        /// </summary>
-        public string Subject { get; set; }
 
         /// <summary>
         /// Описание
         /// </summary>
         public string Description { get; set; }
-
+        
         /// <summary>
-        /// Дата создания
+        /// Исполнитель
         /// </summary>
-        public DateTime CreationDate { get; set; }
-
-        /// <summary>
-        /// Статус
-        /// </summary>
-        public TaskStatus Status { get; set; }
+        public int? Executor { get; set; }
     }
 }

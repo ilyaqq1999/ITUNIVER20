@@ -50,18 +50,15 @@ namespace ItUniver.Tasks.Application.Services.Imps
         }
 
         /// <inheritdoc/>
-        public UserDto Update(UpdateUserDto dto)
+        public UserDto Update(UpdateUserDto updateDto)
         {
-            var user = userRepository.Get(dto.Id);
-            user.Email = dto.Email;
-            if (dto.RoleId.HasValue)
-            {
-                var role = roleRepository.Get(dto.RoleId.Value);
-                user.Role = role;
-            }
-            userRepository.Update(user);///
-            var entity = mapper.Map<UserDto>(user);
-            return entity;
+            var user = userRepository.Get(updateDto.Id);
+            user.Email = updateDto.Email;
+            user.Role = updateDto.RoleId.HasValue ? roleRepository.Get(updateDto.RoleId.Value) : null;
+
+            userRepository.Update(user);
+
+            return mapper.Map<UserDto>(user);
         }
 
         /// <inheritdoc/>
